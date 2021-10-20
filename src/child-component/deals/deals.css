@@ -1,0 +1,32 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(1px, auto);
+    border-right: inset;
+    padding:10px
+
+  }
+#one{
+    border:1px solid blue
+}
+
+#two{
+    border:1px solid blue
+}
+
+#three{
+    border:1px solid blue
+}
+
+#four{
+    border:1px solid blue
+}
+
+#five{
+    border:1px solid blue
+}
+
+#six{
+    border:1px solid blue
+}
+  
