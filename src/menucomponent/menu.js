@@ -8,7 +8,7 @@ function Menu() {
     return(
         
         <div className = 'Menu-component' style={{textalign:"center",
-            backgroundColor: 'White',width: '40%',height: '100%'
+            backgroundColor: 'White',width: '40%',height: '100%',overflow:'scroll'
         }}>
             
              <div id = 'Menuinside-component' style={{
