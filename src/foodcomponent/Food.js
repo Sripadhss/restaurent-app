@@ -5,7 +5,7 @@ function Food() {
     return(
         <div className = "Food-component" data-toggle="collapse" data-target="#CollapseOne"
         style={{
-            backgroundColor: 'maroon',
+            backgroundColor: 'darkmagenta',
             borderRadius:'5px',
             width: '95%',
             height: '30px',

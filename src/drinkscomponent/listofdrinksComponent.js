@@ -1,5 +1,10 @@
 import React from 'react';
 import ReactRoundedImage from "react-rounded-image";
+import water from '../images/water.jpeg'
+import thickshake from '../images/thickshake.jpeg'
+import cooldrinks from '../images/cooldrinks.png'
+import beer from '../images/beer.jpeg'
+
 
 function DrinksComp() {
     return(
@@ -14,7 +19,7 @@ function DrinksComp() {
             display: 'flex',
             flexDirection:'row',
             padding : '10px 10px 10px'}}>   
-            <ReactRoundedImage image={"water.jpeg"} id="Waterimg" roundedSize="0" imageWidth="75" imageHeight="75" />
+            <ReactRoundedImage image={water} id="Waterimg" roundedSize="0" imageWidth="75" imageHeight="75" />
                <table><td style={{
                  padding : '10px 10px 10px',
                  borderradius:'50px'}}>
@@ -27,7 +32,7 @@ function DrinksComp() {
             display: 'flex',
             flexDirection: 'row',
             padding : '10px 10px 10px'}}> 
-            <ReactRoundedImage image={"thickshake.jpeg"} roundedSize="0" imageWidth="75" imageHeight="75" />
+            <ReactRoundedImage image={thickshake} roundedSize="0" imageWidth="75" imageHeight="75" />
                 <table><td style={{
                  padding : '10px 10px 10px',
                  borderradius:'50'}}>
@@ -40,7 +45,7 @@ function DrinksComp() {
             display: 'flex',
             flexDirection: 'row',
             padding:'10px 10px 10px'}}> 
-            <ReactRoundedImage image={"cooldrinks.png"} roundedSize="0" imageWidth="75" imageHeight="75" />
+            <ReactRoundedImage image={cooldrinks} roundedSize="0" imageWidth="75" imageHeight="75" />
                 <table><td style={{
                  padding : '10px 10px 10px',
                  borderradius:'50'}}>
@@ -52,7 +57,7 @@ function DrinksComp() {
             display: 'flex',
             flexDirection: 'row',
             padding:'10px 10px 10px'}}> 
-            <ReactRoundedImage image={"beer.jpeg"} roundedSize="0" imageWidth="75" imageHeight="75" />
+            <ReactRoundedImage image={beer} roundedSize="0" imageWidth="75" imageHeight="75" />
                 <table><td style={{
                  padding : '10px 10px 10px',
                  borderradius:'50'}}>

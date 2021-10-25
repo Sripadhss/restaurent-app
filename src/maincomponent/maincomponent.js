@@ -5,7 +5,7 @@ import './main.css'
 function MainComponent() {
     return(
         <div className="Main-component"style={{
-            backgroundColor: 'grey',
+            backgroundColor: 'black',
             padding : '100px 100px 100px',
       }}>
       <Menu/>

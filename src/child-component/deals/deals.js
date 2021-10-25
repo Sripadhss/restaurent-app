@@ -1,24 +1,58 @@
 import React from 'react';
 import './deals.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container, Row ,Col} from 'react-bootstrap';
 
 function Deals(){
     return(
-        <div class="wrapper">
-  <div id='one'>upto 50% off on veggies</div>
-  <div id='two'>upto 50% off on veggies</div>
-  <div id='three'>upto 20% off on Beverages</div>
-  <div id='four'>upto 15% off on generalItems</div>
-  <div id='five'>upto 60% off on purchase of 2500/- </div>
-  <div id='six'>upto 35% off on purchace of 1000/-</div>
-</div>
+      
+            
+
+        <div className= "card">
+        
+           <h3 class="colorchange" style={{color:"aqua"}}> <marquee scrollamount="10" behavior="alternate" scrolldelay="2" style={{width:"100%"}}>Best Offers For Limited Period , Hurry Up!!</marquee></h3>
+             
+           
+
+        <Container  >
+            <Row>
+            <Col md="3"className="col">
+            <div className="biryani"><h6>Biryani+coke at 299/-</h6></div>
+
+
+        </Col>
+        <Col md="3"className="col">
+            <div className="dinner"><h6> Non-veg thali at 999/-</h6></div>
+
+
+        </Col>
+        <Col md="3" className="col">
+            <div className="dinner"><h6> Veg-thali at 799/-</h6></div>
+
+
+        </Col>
+        <Col md="3" className="col">
+            <div className="dinner"><h6> Arabian Mandi 599/-</h6></div>
+
+
+        </Col>
+        <Col md="3" className="col">
+            <div className="dinner"><h6> Unlimited Alcohol at 1500/-</h6></div>
+
+
+        </Col>
+        <Col md="3" className="col">
+            <div className="dinner"><h6> Membership offer 15%</h6></div>
+
+
+        </Col>
+
+        </Row>
+             </Container>
+        </div>
+        
+
+
     )
 }
 export default Deals;
-
-/*<div classname='DealsComponent'>
-<div>upto 35% off</div>
-<div>upto 50% off on veggies</div>
-<div>upto 20% off on Beverages</div>
-<div>upto 15% off on generalItems</div>
-<div>upto 60% off on purchase of 2500/- </div>
-<div>upto 35% off on purchace of 1000/-</div>*/
